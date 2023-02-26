@@ -1,0 +1,43 @@
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background-color: #FFFCE6;
+  top: 0;
+
+  &Container {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+
+    &Logo {
+      flex: 0.2;
+      min-width: 4.5rem;
+      padding: 1rem 0;
+    }
+
+    &Search {
+      display: flex;
+      justify-content: space-between;
+      flex: 0.6;
+      margin: 0 1rem;
+      padding: 0.75rem 1rem;
+      border-radius: 2.875rem;
+      border: 1px solid #10162f;
+      background: #fff;
+      &Input {
+        border: none;
+        width: 80%;
+        outline: none;
+        &::placeholder {
+          color: #10162f;
+        }
+      }
+    }
+    &Image {
+      flex: 0.2;
+      border: 1px solid #10162f;
+      border-radius: 50%;
+    }
+  }
+}

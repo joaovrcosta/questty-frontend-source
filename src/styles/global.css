@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;700&display=swap');
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+.component{
+  margin-top: 7rem;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins";
+  color: #10162f;
+}
+
+body {
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  display: block;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.react-modal-overlay {
+  background: rgba(245, 255, 187, 0.9);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-modal-content {
+  width: 100%;
+  max-width: 700px;
+  height: 600px;
+  background-color: white;
+  border-radius: 35px;
+  padding: 24px;
+  border: 1px solid #10162f;
+  position: relative;
+}

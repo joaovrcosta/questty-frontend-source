@@ -1,0 +1,39 @@
+.footer{
+    border-top: 1px solid #10162F;
+    padding: 2.5rem;
+
+    &Row{
+        display: flex;
+        justify-content: space-between;
+
+        &Content{
+            display: flex;
+            flex-direction: column;
+
+            &Title{
+                color: #10162F;
+                font-weight: 700;
+                font-size: 1rem;
+                text-transform: uppercase;
+                margin-bottom: 1.5rem;
+            }
+
+            a{
+                text-decoration: none;
+                color: #10162F;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    &Col{
+        display: flex;
+        flex-direction: column;
+
+        p{
+            font-weight: 300;
+            font-size: 0.8rem;
+        }
+
+    }
+}

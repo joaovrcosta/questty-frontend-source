@@ -1,0 +1,79 @@
+.registerContainer {
+  padding-top: 1rem;
+  &Subtitle {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  &Form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    min-width: 17.5rem;
+    margin: 0 auto;
+
+    &Input {
+      padding: 1rem;
+      border: 1px solid #10162f;
+      margin-bottom: 1rem;
+
+      &::placeholder {
+        color: #10162f91;
+      }
+    }
+
+    &RowDivided {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+
+      &Select {
+        margin-right: 0.5rem;
+        padding: 1rem;
+        border: 1px solid #10162f;
+        width: 50%;
+      }
+
+      &Date {
+        margin-left: 0.5rem;
+        padding: 1rem;
+        border: 1px solid #10162f;
+        width: 50%;
+      }
+    }
+
+    &SubmitButton {
+      background: #45a6ff;
+      color: #fff;
+      border-radius: 0.625rem;
+      border: 1px solid #10162f;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 0.75rem 0;
+      text-align: center;
+    }
+
+    &Terms {
+      margin-top: 2rem;
+      text-align: center;
+      &Text {
+        a {
+          color: #45a6ff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  &Comeback {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    &Button {
+      background: none;
+      border: none;
+      color: #45a6ff;
+    }
+  }
+}

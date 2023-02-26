@@ -1,0 +1,25 @@
+.headerLanding{
+    display: flex;
+    padding: 2rem;
+    background: #FFFCE6;
+    align-items: center;
+    justify-content: space-between;
+
+    &Logo{
+        width: 50%;
+    }
+
+    &NavButtons{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+
+        a{
+            padding: 0.75rem 0;
+            color: #10162F;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,77 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Pichau\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @types/phosphor-icons -D --f
+
+PATH: 
+  C:\Users\Pichau\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Pichau\bin;C:\ProgramData\Oracle\Java\javapath;C:\Python310\Scripts;C:\Python310;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Pichau\AppData\Local\Microsoft\WindowsApps;C:\Users\Pichau\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Pichau\AppData\Roaming\npm;C:\Users\Pichau\.dotnet\tools;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2fphosphor-icons: Not found
+      at Request.params.callback [as _callback] (C:\Users\Pichau\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\Pichau\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\Pichau\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\Pichau\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "questty-front-end",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@emotion/react": "^11.7.1",
+      "@emotion/styled": "^11.6.0",
+      "@mui/material": "^5.4.0",
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@testing-library/user-event": "^12.1.10",
+      "axios": "^0.27.2",
+      "concurrently": "^7.0.0",
+      "date-fns": "^2.28.0",
+      "history": "^5.2.0",
+      "next": "12.2.0",
+      "phosphor-icons": "^1.4.2",
+      "react": "^18.2.0",
+      "react-dom": "18.2.0",
+      "react-modal": "^3.14.4",
+      "react-router-dom": "6.0.0-beta.0",
+      "sass": "^1.49.5",
+      "web-vitals": "^1.0.1",
+      "yup": "^0.32.11"
+    },
+    "devDependencies": {
+      "@types/node": "^18.0.1",
+      "@types/react-modal": "^3.13.1",
+      "autoprefixer": "^10.4.7",
+      "eslint": "8.19.0",
+      "eslint-config-next": "12.2.0",
+      "postcss": "^8.4.14",
+      "tailwindcss": "^3.1.4",
+      "typescript": "^4.7.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

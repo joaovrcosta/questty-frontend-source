@@ -1,0 +1,230 @@
+.questContainer {
+  padding: 2.5rem 1.5rem 5rem;
+
+  &Upper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    &Image {
+      width: 2rem;
+      height: 2rem;
+      border: 1px solid #10162f;
+      border-radius: 50%;
+      margin-right: 0.625rem;
+    }
+
+    &Nickname {
+      background: #fff;
+      font-size: 0.75rem;
+      border: 1px solid #10162f;
+      border-radius: 0.25rem;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      padding: 0 0.25rem;
+      margin-right: 0.625rem;
+    }
+
+    &CreatedAt {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      font-size: 0.75rem;
+      margin-right: 0.625rem;
+
+      &::before {
+        content: "";
+        width: 0.25rem;
+        height: 0.25rem;
+        background: #10162f;
+        border-radius: 50%;
+        margin-right: 0.375rem;
+      }
+    }
+
+    &Subject {
+      color: #0d5a00;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 0.75rem;
+    }
+  }
+
+  &Question {
+    &Preview {
+      margin-bottom: 1rem;
+      &Text {
+        font-size: 1.5rem;
+      }
+    }
+
+    &Remaining {
+      &Text {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+    }
+
+    &Details {
+      display: flex;
+      justify-content: space-between;
+      flex: 0.6;
+      margin: 1.5rem 1rem 2rem;
+      padding: 0.75rem 1rem;
+      border-radius: 2.5rem;
+      border: 1px solid #10162f;
+      background: #fff;
+      &Input {
+        border: none;
+        width: 80%;
+        outline: none;
+        &::placeholder {
+          color: #10162f;
+        }
+      }
+    }
+
+    &Respond {
+      padding: 0 1rem;
+
+      &Textarea {
+        border: 1px solid #10162f;
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+
+      &Button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 1rem;
+        background: #45a6ff;
+        border: 1px solid #10162f;
+        border-radius: 2.5rem;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 600;
+
+        &Image {
+          margin-right: 0.625rem;
+        }
+      }
+    }
+
+    &Answers {
+      margin: 3rem -1.5rem 2rem;
+      &ItemBest{
+        background: #FFFBD9;
+        border-top: 1px solid #EBA900;
+        border-bottom: 1px solid #EBA900;
+      }
+      .answerContainer {
+        padding: 1.5rem;
+        &Upper{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          &Image{
+            width: 2rem;
+            height: 2rem;
+            border: 1px solid #10162f;
+            border-radius: 50%;
+            margin-right: .625rem;
+          }
+
+          &Nickname{
+            background: #fff;
+            font-size: 0.75rem;
+            border: 1px solid #10162f;
+            border-radius: 0.25rem;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            padding: 0 0.25rem;
+            margin-right: 0.625rem;
+          }
+
+          &Highlight{
+            background: #FFE074;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            border: 1px solid #10162f;
+            border-radius: .75rem;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            padding: 0 .375rem;
+            margin-right: 0.625rem;
+          }
+
+          &Stars{
+            display: flex;
+            align-items: center;
+
+            &Image{
+              width: 1.5rem;
+              height: 1.5rem;
+              margin-right: .375rem;
+            }
+
+            &Number{
+              font-weight: 600;
+            }
+          }
+        }
+
+        &Box{
+          margin-top: 1rem;
+          background: #fff;
+          padding: .75rem;
+          border: 1px solid #10162f;
+        }
+
+        &Lower{
+          margin-top: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          &ThankButton{
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            background: #fff;
+            border: 1px solid #10162f;
+            border-radius: 1.25rem;
+            padding: .125rem .625rem;
+
+            img{
+              width: .875rem;
+              height: .875rem;
+              margin: 0 .125rem 0 .375rem;
+            }
+          }
+
+          &RateButton{
+            background: none;
+            border: none;
+            font-weight: 600;
+            display: flex;
+            img:last-child{
+              margin-right: .25rem;
+            }
+          }
+        }
+      }
+    }
+
+    .emptyAnswers{
+      margin: 3rem -1.5rem 2rem;
+      background: #f7ffd2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 18.75rem;
+      background: #f7ffd2;
+
+      &Text {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

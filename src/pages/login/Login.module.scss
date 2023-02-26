@@ -1,0 +1,45 @@
+.loginContainer {
+  padding-top: 1rem;
+  &Title {
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1.75rem;
+  }
+
+  &Form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    min-width: 17.5rem;
+    margin: 0 auto;
+
+    &Input {
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border: 1px solid #10162f;
+
+      &::placeholder {
+        color: #10162f91;
+      }
+    }
+
+    &ForgotButton {
+      color: #45a6ff;
+      text-align: center;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    &SubmitButton {
+      background: #45a6ff;
+      color: #fff;
+      border-radius: 0.625rem;
+      border: 1px solid #10162f;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: .75rem 0;
+      text-align: center;
+    }
+  }
+}

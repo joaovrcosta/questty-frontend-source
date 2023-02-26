@@ -1,0 +1,119 @@
+.profileContainer {
+  padding: 2.5rem 1.5rem 5rem;
+
+  &SectionImage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &Avatar {
+      &Icon {
+        border: 1px solid #10162f;
+        border-radius: 50%;
+        width: 7.5rem;
+        height: 7.5rem;
+      }
+    }
+    &Edit {
+      &Button {
+        background: #45a6ff;
+        border: 1px solid #10162f;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: 700;
+        padding: 0.75rem 1rem;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      }
+    }
+  }
+
+  &SectionInfo {
+    &Name {
+      margin: 1rem 0;
+      &Text {
+        font-weight: 700;
+      }
+    }
+  }
+
+  &SectionInfoStar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    &Content {
+      display: flex;
+      align-items: center;
+      &:first-child {
+        margin-right: 1rem;
+      }
+      &Number {
+        font-weight: 600;
+        font-size: 1.25rem;
+        margin-left: 0.25rem;
+      }
+    }
+  }
+  &SectionInfoDate {
+    &LastSeen {
+      margin-bottom: 1rem;
+    }
+  }
+  &LastAnswers {
+    margin-top: 2rem;
+    &Title {
+      margin-bottom: 1rem;
+      &Text {
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+    }
+    &Card {
+      background: #fee795;
+      border: 1px solid #10162f;
+      padding: 0.5rem;
+
+      &Link {
+        &Header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          &Nickname {
+            background: #fff;
+            border: 1px solid #10162f;
+            border-radius: 0.625rem;
+            min-width: 5rem;
+            text-align: center;
+            padding: 0 1rem;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          }
+
+          &Badge {
+            background: #fff500;
+            border: 1px solid #10162f;
+            border-radius: 0.625rem;
+            min-width: 5rem;
+            text-align: center;
+            padding: 0 1rem;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          }
+        }
+
+        &Content {
+          &Container {
+            display: flex;
+            align-items: center;
+            &Text{
+              flex: 0.8;
+            }
+            &Arrow{
+              flex: 0.2;
+              width: 1.5rem;
+              height: 1.5rem;
+              transform: rotate(90deg);
+            }
+          }
+        }
+      }
+    }
+  }
+}
